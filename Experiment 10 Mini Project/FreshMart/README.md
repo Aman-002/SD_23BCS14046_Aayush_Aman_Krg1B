@@ -52,7 +52,7 @@ A full-stack **microservices-based** online grocery shopping system built with *
                                                           └─────────────────┘
                                                           
 ```
-![Architecture](architecture.png)
+![Architecture](FreshMart-1.png)
 
 All backend services register with the **Eureka Server**. The **API Gateway** uses `lb://` (load-balanced) URIs to route requests to the appropriate downstream service.
 
